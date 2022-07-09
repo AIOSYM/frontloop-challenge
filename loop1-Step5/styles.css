@@ -1,0 +1,101 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.root {
+    width: 500px;
+    margin: 100px auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 4px;
+    padding: 0 60px 60px;
+}
+
+.depart-arr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.airport {
+    display: flex;
+    flex-direction: column;
+}
+
+.abbr {
+    font-family: Prompt;
+    font-weight: 900;
+    font-size: 60px;
+    margin: 20px 0;
+    color: #6A97D8;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    color: #aaa;
+    text-transform: uppercase;
+}
+
+.arr {
+    text-align: right;
+}
+
+.bar {
+    width: 30px;
+    height: 6px;
+    background-color: #6A97D8;
+    opacity: 0.4;
+}
+
+.flight-info {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+
+.flight, .gate {
+    margin-right: 50px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 300;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.value {
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+
+
