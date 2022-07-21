@@ -1,6 +1,6 @@
 .layout {
     min-width: 940px;
-    background-color: red;
+    background-color: white;
 }
 
 body {
@@ -30,6 +30,7 @@ input {
 .wrapper {
     width: 900px;
     margin: 0 auto;
+
 }
 
 .hero-image {
@@ -164,5 +165,96 @@ input {
 
 .cta-button:hover {
     background: #DB5B56;
+}
+
+.section {
+    padding: 40px 20px;
+    overflow: hidden;
+  }
+
+  .section-separeted {
+    border-top: 1px solid #dedede;
+  }
+.columns {
+    margin: 0 -40px;
+}
+
+.columns-item {
+    padding: 0 40px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.columns-item-third {
+    width: 33%;
+}
+
+.preview-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.preview-text {
+    margin-top: 40px;
+    line-height: 24px;
+}
+
+.preview-dots {
+    margin: 15px 15px 0;
+    position: relative;
+}
+
+.preview-dots,
+.preview-dots::before,
+.preview-dots::after {
+    width: 4px;
+    height: 4px;
+    background: #ccc;
+}
+
+.preview-dots::before,
+.preview-dots::after {
+    content: '';
+    position:absolute;
+}
+
+.preview-dots::before {
+    left: -15px;
+}
+
+  .preview-dots::after {
+    right: -15px;
+}
+
+.preview-more {
+    margin-top: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    color: #DB5B56;
+    font-weight: 700;
+}
+
+.preview-more:before {
+    content:'';
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 2px;
+    background: #EA635C;
+    margin-right: 10px;
+    transition: width 0.15s ease-in-out;
+}
+
+.preview-more:hover::before {
+    width: 40px;
+  }
+
+.preview-more-inner {
+    display: inline-block;
+    vertical-align: middle;
 }
 
