@@ -274,3 +274,31 @@ input {
 .image-preview {
     max-width: 100%;
 }
+
+.hero-runner {
+    background: url("../img/runners.jpg") no-repeat 50%;
+    background-size: cover;
+}
+
+.hero-runner::after {
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.hero-runner .hero-content {
+    justify-content: flex-end;
+}
+
+.promo-light {
+    color: white;
+}
+
+.promo-light .call-out {
+    border-left-color: white;
+    opacity: 1;
+}
