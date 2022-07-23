@@ -258,3 +258,19 @@ input {
     vertical-align: middle;
 }
 
+.image-promo {
+    display: flex;
+    align-items: center;
+}
+
+.image-promo-content {
+    flex-grow: 1;
+}
+
+.image-promo-preview {
+    flex-basis: 400px;
+}
+
+.image-preview {
+    max-width: 100%;
+}
